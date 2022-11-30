@@ -1,0 +1,81 @@
+@import url('../api/Fonts/Algerian/Algerian\ Regular.ttf');
+
+/* flower navbar */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#logo {
+    width: 30%;
+    height: 80px;
+    background-color: aqua;
+    display: inline;
+    position: absolute;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+@media screen and (max-width: 434px) {
+    #logo {
+        display: none;
+        width: 10%;
+    }
+}
+@media screen and (max-width: 434px) {
+    #menu {
+        width: 90%;
+    }
+}
+
+    #logo h1 {
+        font-size: xx-large;
+        font-family: algerian;
+        position: relative;
+        padding-left: 145px;
+    }
+
+    @media screen and (max-width: 1065px) {
+        #logo h1 {
+            display: none;
+        }
+    }
+
+    #logo img {
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        left: 77px;
+        width: 120px;
+        height: 80px;
+        /* padding-left: 30px; */
+    }
+
+    @media screen and (max-width: 1065px) {
+        #logo img {
+            display: none;
+        }
+    }
+
+    #menu {
+        width: 70%;
+        height: 80px;
+        background-color: blueviolet;
+        position: absolute;
+        right: 0px;
+    }
+
+    #menu ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top: 30px;
+
+    }
